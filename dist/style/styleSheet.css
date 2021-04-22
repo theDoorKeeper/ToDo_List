@@ -32,7 +32,7 @@
   
   .sidebar { 
     grid-area: sidebar; 
-    overflow: scroll;
+    overflow:hidden;
     scrollbar-width: none ;
 /*     border-right:  solid black 1px;; */
 }
@@ -59,24 +59,24 @@
     grid-gap: 10px;
     padding: 10px;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    overflow:scroll;
+    overflow:hidden;
     scrollbar-width: none;
     justify-items: center;
       
   }
   .folderContainer{
-    overflow:scroll;
+    overflow:hidden;
     scrollbar-width: none;
   }
   .main { 
     grid-area: main;
-    overflow:scroll;
+    overflow:hidden;
     scrollbar-width: none;
       
 }
 
 .taskListContainer{
-  overflow:scroll;
+  overflow:hidden;
   scrollbar-width: none;
 }
 #newProject{
@@ -91,7 +91,7 @@
     border:black 1px solid;
     color: #ffa31a;
     display: flex;
-    overflow: scroll;
+    overflow:hiddenl;
     scrollbar-width: none;
     font-size: 25px;
     justify-content: space-around;
@@ -120,7 +120,7 @@
   .taskIcon{
     background-color: transparent;
     border:none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     cursor: pointer;
   }
